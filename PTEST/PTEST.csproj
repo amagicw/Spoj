@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D1F810DE-10A9-445F-A6D0-1078BD8795CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PTESTV1</RootNamespace>
-    <AssemblyName>PTESTV1</AssemblyName>
+    <RootNamespace>PTEST</RootNamespace>
+    <AssemblyName>PTEST</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
