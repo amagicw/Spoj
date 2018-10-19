@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Numerics;
 using FCTRL3;
 
 namespace FCTRL

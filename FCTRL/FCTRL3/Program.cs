@@ -4,37 +4,46 @@ namespace FCTRL3
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
             int d = Int32.Parse(Console.ReadLine());
-            string[] result = new string[d];
+
+            DisplayValues(LoopByFactorial(d));
+            Console.ReadLine();
+        }
+
+        public static string[] LoopByFactorial(int d)
+        {
+            string[] values = new string[d];
             if (d < 1 || d > 30)
                 throw new NotImplementedException();
             for (int i = 0; i < d; i++)
             {
-                int v = Int32.Parse(Console.ReadLine());
-                int x = Factorial(v);
-                int numberOfUnities = x % 10;
-                int numberOfDozens = x % 100 - numberOfUnities;
-                result[i] = $"{numberOfDozens} {numberOfUnities}";
+                long x = Int64.Parse(Console.ReadLine());
+                if(x<10)
+                {
+                    x = Factorial(x);
+                    values[i] = $"{x / 10 % 10} {x % 10}";
+                }
+                else
+                {
+                    values[i] = $"0 0";
+                }
+
             }
-            Console.Write(result);
-            //DisplayValues(values);
+            return values;
         }
 
-        public static int Factorial(int number)
+        public static long Factorial(long number)
         {
             return number < 2 ? 1 : Factorial(number - 1) * number;
         }
-
-        public static void DisplayValues(int[] numbers)
+        public static void DisplayValues(string[] numbers)
         {
-            int counter = numbers.Length;
-            for (int i =0; i<counter;i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                int numberOfUnities = numbers[i] % 10;
-                int numberOfDozens = numbers[1] % 100 - numberOfUnities;
-                Console.WriteLine($"{numberOfDozens} {numberOfUnities}");
+                Console.WriteLine(numbers[i]);
             }
         }
     }
