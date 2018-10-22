@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POTSAM", "POTSAM\POTSAM.csproj", "{9DE6629A-4384-4092-8E6F-3D3386421805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POTSAM_Tests", "POTSAM_Tests\POTSAM_Tests.csproj", "{56C4B0DE-5302-40B3-9752-622B5AA3E68F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE6629A-4384-4092-8E6F-3D3386421805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE6629A-4384-4092-8E6F-3D3386421805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE6629A-4384-4092-8E6F-3D3386421805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE6629A-4384-4092-8E6F-3D3386421805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C4B0DE-5302-40B3-9752-622B5AA3E68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C4B0DE-5302-40B3-9752-622B5AA3E68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C4B0DE-5302-40B3-9752-622B5AA3E68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C4B0DE-5302-40B3-9752-622B5AA3E68F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6E62B9F-525C-4237-A095-09DB17C3DA9C}
+	EndGlobalSection
+EndGlobal
